@@ -1,7 +1,6 @@
 {
 	"name": "rg_theme",
 	"background": "#FFFFFF",
-	"foreground": "#E6E6E6",
 	"dataColors": [
 		"#c13e2c",
 		"#5f5f52",
@@ -323,6 +322,17 @@
 						"color": "#ffffff",
 						"transparency": 0
 					}
+				],
+				"goals": [
+					{
+						"showGoal": true,
+						"showDistance": true,
+						"color": {
+							"solid": {
+								"color": "#666666"
+							}
+						}
+					}
 				]
 			}
 		},
@@ -461,6 +471,17 @@
 						"responsive": true
 					}
 				],
+				"background": [
+					{
+						"show": true,
+						"color": "#ffffff",
+						"transparency": 0
+					}
+				]
+			}
+		},
+		"tableEx": {
+			"*": {
 				"background": [
 					{
 						"show": true,
